@@ -1,0 +1,9 @@
+# Forum
+
+1. Thread
+2. Reply to a thread
+3. Users (obviously)
+
+    A. Threads are created by Users
+    B. Reply belongs to both a thread and a user
+
