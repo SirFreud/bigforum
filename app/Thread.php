@@ -1,8 +1,8 @@
 <?php
 
-namespace BigForum;
+namespace App;
 
-use BigForum\Reply;
+use App\Reply;
 use Illuminate\Database\Eloquent\Model;
 
 class Thread extends Model

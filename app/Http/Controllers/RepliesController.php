@@ -1,8 +1,8 @@
 <?php
 
-namespace BigForum\Http\Controllers;
+namespace App\Http\Controllers;
 
-use BigForum\Thread;
+use App\Thread;
 use Illuminate\Http\Request;
 
 class RepliesController extends Controller

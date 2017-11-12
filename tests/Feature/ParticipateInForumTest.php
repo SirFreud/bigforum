@@ -3,9 +3,7 @@
 namespace Tests\Feature;
 
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class ParticipateInForumTest extends TestCase
 {
@@ -17,7 +15,6 @@ class ParticipateInForumTest extends TestCase
         $this->expectException('Illuminate\Auth\AuthenticationException');
         $this->post('/threads/1/replies');
     }
-    
 
     /** @test */
     function an_authenticated_user_may_participate_in_forum_threads()

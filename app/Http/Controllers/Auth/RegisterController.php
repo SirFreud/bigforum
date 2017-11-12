@@ -1,9 +1,9 @@
 <?php
 
-namespace BigForum\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use BigForum\User;
-use BigForum\Http\Controllers\Controller;
+use App\User;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
@@ -58,7 +58,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \BigForum\User
+     * @return \App\User
      */
     protected function create(array $data)
     {
