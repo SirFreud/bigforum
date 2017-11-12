@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace BigForum\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace BigForum\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
